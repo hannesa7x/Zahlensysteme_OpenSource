@@ -7,6 +7,39 @@ namespace Zahlensysteme
 {
     class Program
     {
+        static bool Binaer(string eingabe)
+        {
+            char[] b = eingabe.ToCharArray();
+
+            for (int counter = 0; counter < eingabe.Length; counter++)
+            {
+                if (b[counter] != ('0'))
+                {
+                }
+                else if (b[counter] == ('0'))
+                {
+                }
+                else
+                {
+                    Console.WriteLine("Das ist keine Binärzahl!");
+                    return false;
+                    break;
+                }
+                if (b[counter] == ('1'))
+                {
+                }
+                else if (b[counter] == ('0'))
+                {
+                }
+                else
+                {
+                    Console.WriteLine("Das ist keine Binärzahl!");
+                    return false;
+                    break;
+                }
+            }
+            return true;
+        }
         static void Main(string[] args)
         {
             int menu = 0;
@@ -18,56 +51,40 @@ namespace Zahlensysteme
 
 
 
-                Console.WriteLine("                             1    Binäreingabe");
-                Console.WriteLine("                             2    Umrechnung in Basis 10");
-                Console.WriteLine("                             3    Umrechnung in Basis 16");
-                Console.Write("Wählen Sie in welches Zahlenformat Sie umwandeln möchten: ");
-                menu = Convert.ToInt32(Console.ReadLine());
-
-                switch (menu)
+                Console.Write("Geben Sie eine Binärzahl ein: ");
+                string eingabe = Console.ReadLine();
+                
+                
+                if (Binaer(eingabe))
                 {
 
-                    case 1:
-                        Console.Write("Geben Sie eine Binärzahl ein: ");
-                        string eingabe = Console.ReadLine();
-                        char[] b = eingabe.ToCharArray();
 
-                        for (int counter = 0; counter < eingabe.Length; counter++)
-                        {
-                            if (b[counter] != ('0'))
-                            {
-                            }
-                            else if (b[counter] == ('0'))
-                            {
-                            }
-                            else
-                            {
-                                Console.WriteLine("Das ist keine Binärzahl!");
-                                break;
-                            }
-                            if (b[counter] == ('1'))
-                            {
-                            }
-                            else if (b[counter] == ('0'))
-                            {
-                            }
-                            else
-                            {
-                                Console.WriteLine("Das ist keine Binärzahl!");
-                                break;
-                            }
-                        }
-                        break;
+                    Console.WriteLine("                             1    Umrechnung in Basis 10");
+                    Console.WriteLine("                             2    Umrechnung in Basis 16");
+                    Console.Write("Wählen Sie in welches Zahlenformat Sie umwandeln möchten: ");
+                    menu = Convert.ToInt32(Console.ReadLine());
 
-                    case 2:
+                    switch (menu)
+                    {
 
-                        break;
+                        case 1:
 
-                    default: Console.WriteLine("Fehler: geben Sie bitte eine gültige Zahl ein!");
 
-                        break;
+
+                            break;
+
+                        case 2:
+
+                            break;
+
+                        default: Console.WriteLine("Fehler: geben Sie bitte eine gültige Zahl ein!");
+
+                            break;
+                    }
+
+                    Console.ReadKey();
                 }
-
+                else
                 Console.ReadKey();
             }
 

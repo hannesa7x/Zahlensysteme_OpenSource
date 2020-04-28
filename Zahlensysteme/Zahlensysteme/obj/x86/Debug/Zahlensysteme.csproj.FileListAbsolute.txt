@@ -4,3 +4,5 @@ C:\Users\Work - Stay focused\AppData\Local\Temporary Projects\Zahlensysteme\obj\
 C:\Users\Work - Stay focused\AppData\Local\Temporary Projects\Zahlensysteme\obj\x86\Debug\Zahlensysteme.pdb
 C:\Users\Work - Stay focused\Google Drive\AUT\Programm_Zahlensysteme\Zahlensysteme\Zahlensysteme\obj\x86\Debug\Zahlensysteme.exe
 C:\Users\Work - Stay focused\Google Drive\AUT\Programm_Zahlensysteme\Zahlensysteme\Zahlensysteme\obj\x86\Debug\Zahlensysteme.pdb
+C:\Users\Work - Stay focused\Google Drive\AUT\Programm_Zahlensysteme\Zahlensysteme\Zahlensysteme\bin\Debug\Zahlensysteme.exe
+C:\Users\Work - Stay focused\Google Drive\AUT\Programm_Zahlensysteme\Zahlensysteme\Zahlensysteme\bin\Debug\Zahlensysteme.pdb
