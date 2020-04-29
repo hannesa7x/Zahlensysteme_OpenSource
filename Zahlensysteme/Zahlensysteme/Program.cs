@@ -75,6 +75,8 @@ namespace Zahlensysteme
                             break;
 
                         case 2:
+                            Console.Write(eingabe+" --> ");
+                            Console.Write(ConvertToHex(eingabe));
 
                             break;
 
