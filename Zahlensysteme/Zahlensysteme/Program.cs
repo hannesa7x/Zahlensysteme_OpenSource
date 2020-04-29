@@ -101,5 +101,16 @@ namespace Zahlensysteme
             //Console.WriteLine("Input value in base 10 = " + b);
             return b;
         }
+
+
+        static string ConvertToHex(string Eingelesen)
+        {
+            //Eingabe der Zahl als string
+
+            string Erg = Convert.ToInt32(Eingelesen, 2).ToString("X");
+
+            return Erg;
+        }
+
     }
 }
