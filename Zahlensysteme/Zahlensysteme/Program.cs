@@ -90,5 +90,15 @@ namespace Zahlensysteme
 
             Console.ReadKey();
         }
+
+        static string ConvertToDec(string Eingelesen)
+        {
+            //string Bin = Convert.ToString(Console.ReadLine());
+            int a = Convert.ToInt32(Eingelesen, 2);
+            //int a = Convert.ToInt32(Eingelesen, 2);
+            string b = Convert.ToString(a);
+            //Console.WriteLine("Input value in base 10 = " + b);
+            return b;
+        }
     }
 }
