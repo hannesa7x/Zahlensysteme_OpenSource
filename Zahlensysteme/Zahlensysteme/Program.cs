@@ -68,7 +68,8 @@ namespace Zahlensysteme
                     {
 
                         case 1:
-
+                            Console.Write(eingabe+" --> ");
+                            Console.Write(ConvertToDec(eingabe));
 
 
                             break;
